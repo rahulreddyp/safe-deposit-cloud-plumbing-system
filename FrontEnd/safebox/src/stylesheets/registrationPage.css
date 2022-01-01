@@ -1,0 +1,249 @@
+ /* Author -Sri Sai Bhargav Nuthakki */
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+
+
+.Page{
+    height:1200px;
+    width:100%;
+    position: relative;
+    background-image: url("http://www.thebusinessaccounting.com/wp-content/uploads/2018/10/1-2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: fill;
+    opacity: 0.3; 
+}
+
+.redirectLogin{
+    position: absolute;
+    top:10%;
+    right: 10px;
+    font-size: 15px;
+    background: transparent;
+    height: 50px;
+    width: 300px;
+    padding: 10px;
+
+}
+
+.FirstName {
+    text-align: left;
+    border: none;
+}
+.LastName{
+    text-align: left;
+    border: none;
+}
+.Password{
+    text-align: left;
+    border: none;
+}
+.ConfirmPassword{
+    text-align: left;
+    border: none;
+}
+.Email{
+    text-align: left;
+    border: none;
+}
+.MobileNumber{
+    text-align: left;
+    border: none;
+}
+
+.SecurityAnswer{
+    border: none;
+}
+.SecurityQuestion{
+    border: none;
+}
+
+.Role{
+    text-align: left;
+    border: none;
+}
+
+.redirectLogin p{
+    animation: animate 2s linear forwards;
+    opacity: 0;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+}
+.redirectLogin a{
+    animation: animate 2s linear forwards;
+    opacity: 0;
+    font-size: 18px;
+    color: blue;
+    font-weight: 500;
+}
+
+.title{
+
+    position: absolute;
+    top: 12%;
+    left:50%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 35px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px black;
+    
+}
+
+
+.registerButton{
+    background: transparent;
+    border: 2px solid #000000;  
+    cursor: pointer;
+    margin: 10px;
+    margin-left: 90%;
+    
+    background-color:black ;
+    color: white;
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 7px;
+}
+
+#feildName{
+    text-align: center;
+    color: black;
+    border: none;
+}
+.feildAlign{
+    text-align: left;
+    padding-left: 20px;
+    border:none;
+}
+#feildValue{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    text-align: left;
+}
+.errorMsg{
+    color: red;
+    font-weight: bold;
+}
+
+.registrationTable{
+    position: absolute;
+    top: 25%;
+    right: 17%;
+    height:500px;
+    width:1200px;
+    border: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+#feildValue:hover{
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+@keyframes animate{
+    0%{
+        transform:translateX(150px);
+        opacity: 0;
+    }
+    
+    100%{
+        transform:translateX(0);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:1500px) and (min-width:1000px){
+    .registrationTable{
+        width:87%;
+        position: absolute;
+        top: 25%;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    .redirectLogin{
+        position: absolute;
+        top:10%;
+        right: 10px;
+        font-size: 15px;
+        background: transparent;
+        height: 50px;
+        width: 300px;
+        padding: 10px;
+    }
+    .redirectLogin p{
+        right: 0%;
+        animation: animate 2s linear forwards;
+        opacity: 0;
+        font-size: 10px;
+        font-weight: 300;
+    }
+
+    .redirectLogin a{
+        animation: animate 2s linear forwards;
+        opacity: 0;
+        font-size: 10px;
+        color: blue;
+        font-weight: 300;
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width:1000px){
+    .registrationTable{
+        width:47%;
+        position: absolute;
+        top: 25%;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    .redirectLogin{
+        width:20%;
+        font-size: 10px;
+        position: absolute;
+        top:10%;
+        right: 10px;
+    }
+    .redirectLogin p{
+            right: 0%;
+            animation: animate 2s linear forwards;
+            opacity: 0;
+            font-size: 10px;
+            font-weight: 300;
+    }
+
+    .redirectLogin a{
+        animation: animate 2s linear forwards;
+        opacity: 0;
+        font-size: 10px;
+        color: blue;
+        font-weight: 300;
+    }
+   
+    
+}
+@media screen and (max-width:600px){
+    .registrationTable{
+        width:37%;
+        position: absolute;
+        top: 25%;
+        left:50%;
+        transform: translateX(-50%);
+    }
+    .redirectLogin{
+      
+        display: none;
+    }
+  
+    
+}
