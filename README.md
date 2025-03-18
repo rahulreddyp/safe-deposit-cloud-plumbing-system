@@ -1,26 +1,45 @@
 # Safe Deposit Cloud Plumbing System ☁️ 🏦
 
-A cloud-based system for managing safe deposit services efficiently. This project integrates **Java**, and **Cloud Technologies** like **AWS** and **GCP** services to provide a secure and scalable solution.
+## Overview
+Safe Deposit Cloud Plumbing System is a multi-cloud SaaS application designed for secure, scalable, and on-demand data processing. This system leverages AWS and GCP services to ensure seamless functionality, high availability, and robust security.
 
 ## 📌 Features
+- **Serverless & Scalable Architecture**: Implements event-driven processing using AWS Lambda and DynamoDB for efficient data management.
+- **Multi-Cloud Integration**: Utilizes AWS and GCP services for reliability and redundancy.
+- **Secure Authentication**: Multi-factor authentication (MFA) implemented using Firebase Authentication.
+- **AI-Powered Similarity Matching**: Integrated with Google Vision AI for image similarity detection.
+- **Streamlined Deployment**: Uses AWS Amplify for continuous deployment and automated CI/CD pipelines via GitLab.
 
-- **User Authentication & Authorization**: Secure access with JWT-based authentication.
-- **Safe Deposit Management**: Manage safe deposit boxes with proper access control.
-- **Cloud-Enabled**: Deployed using AWS and GCP cloud services for scalability.
+## 👨‍💻 Tech Stack
+- **Cloud Platforms**: AWS, GCP
+- **Backend**: Node.js, AWS Lambda
+- **Database**: AWS DynamoDB
+- **Authentication**: Firebase Authentication
+- **Machine Learning**: Google Vision AI
+- **CI/CD**: GitLab
+- **Infrastructure as Code**: AWS Amplify
 
 ## 🏗️ Project Structure
 
 ```bash
 safe-deposit-cloud-plumbing-system/
-├── api-gateway/         # API Gateway for routing and authentication
-├── authentication/      # Authentication & authorization service
-├── safe-deposit-service/ # Core service for managing deposit boxes
-├── config-server/       # Centralized configuration management
-├── database/            # Database setup and migration scripts
-├── docker/              # Docker setup for containerization
-├── infrastructure/      # Deployment configurations
-├── README.md            # Project documentation
-└── .gitignore           # Ignored files
+├── backend/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   └── resources/
+│   ├── pom.xml
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── styles/
+│   │   └── utils/
+│   ├── package.json
+│   └── README.md
+├── .gitignore
+└── README.md
 ```
 
 ## 🤝 Contributing
