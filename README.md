@@ -21,6 +21,9 @@ Safe Deposit Cloud Plumbing System is a multi-cloud SaaS application designed fo
 
 ## 🏗️ Project Structure
 
+![image](https://github.com/user-attachments/assets/7a1bfc93-1a91-4bd2-a9a9-8aa2585bcc45)
+
+
 ```bash
 safe-deposit-cloud-plumbing-system/
 ├── backend/
