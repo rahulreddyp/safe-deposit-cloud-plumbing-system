@@ -3,6 +3,8 @@
 ## Overview
 Safe Deposit Cloud Plumbing System is a multi-cloud SaaS application designed for secure, scalable, and on-demand data processing. This system leverages AWS and GCP services to ensure seamless functionality, high availability, and robust security.
 
+![image](https://github.com/user-attachments/assets/7a1bfc93-1a91-4bd2-a9a9-8aa2585bcc45)
+
 ## 📌 Features
 - **Serverless & Scalable Architecture**: Implements event-driven processing using AWS Lambda and DynamoDB for efficient data management.
 - **Multi-Cloud Integration**: Utilizes AWS and GCP services for reliability and redundancy.
@@ -20,9 +22,6 @@ Safe Deposit Cloud Plumbing System is a multi-cloud SaaS application designed fo
 - **Infrastructure as Code**: AWS Amplify
 
 ## 🏗️ Project Structure
-
-![image](https://github.com/user-attachments/assets/7a1bfc93-1a91-4bd2-a9a9-8aa2585bcc45)
-
 
 ```bash
 safe-deposit-cloud-plumbing-system/
